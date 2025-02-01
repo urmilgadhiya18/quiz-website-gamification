@@ -1,36 +1,72 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Interactive Quiz Application
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This Interactive Quiz Application is a dynamic, engaging web application built with Next.js, React, and Tailwind CSS. It offers users an immersive quiz-taking experience with features like real-time feedback, timed sessions, and detailed performance reviews. The application showcases modern web development practices, including responsive design, animated UI elements, and efficient state management.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Dynamic quiz loading from API
+- Interactive question navigation
+- Timed quiz sessions with countdown timer
+- Real-time feedback on answer selection
+- Detailed review of quiz results
+- Animated UI elements using Framer Motion
+- Responsive design for various screen sizes
+- Confetti celebration for correct answers
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## Live Demo & Video Walkthrough
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- [Link Demo](https://quiz-taskk.vercel.app)
+- [Link to video walkthrough](https://youtu.be/ucUfsxkLWwo)
 
-## Learn More
+## Screenshots
 
-To learn more about Next.js, take a look at the following resources:
+![Quiz Start Screen](https://github.com/user-attachments/assets/17721df6-175f-4952-8f53-a893a3d2d50c)
+![Quiz Question Screen](https://github.com/user-attachments/assets/751b366a-8a96-42a4-8a61-679c9249d80e)
+![Quiz Results Screen](https://github.com/user-attachments/assets/dc9ec144-0d9b-4b26-98a6-e36dbf834d11)
+![Detailed Review Screen](https://github.com/user-attachments/assets/1484bffe-87ab-4c7f-9c6d-c0f853ed015e)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Technologies Used
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [Next.js](https://nextjs.org/) - React framework for production
+- [React](https://reactjs.org/) - JavaScript library for building user interfaces
+- [Tailwind CSS](https://tailwindcss.com/) - Utility-first CSS framework
+- [Framer Motion](https://www.framer.com/motion/) - Animation library for React
+- [Lucide React](https://lucide.dev/) - Beautiful & consistent icon toolkit
+- [Canvas Confetti](https://github.com/catdad/canvas-confetti) - Celebration effects
+- [shadcn/ui](https://ui.shadcn.com/) - Re-usable components built with Radix UI and Tailwind CSS
 
-## Deploy on Vercel
+## Prerequisites
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Before you begin, ensure you have the following installed on your local machine:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- [Node.js](https://nodejs.org/) (v14.0.0 or later)
+- [npm](https://www.npmjs.com/) (usually comes with Node.js)
+
+## Setup Instructions
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/your-username/interactive-quiz-app.git
+   ```
+2. Navigate to the project directory:
+   ```sh
+   cd interactive-quiz-app
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open your browser and go to:
+   ```sh
+   http://localhost:3000
+   ```
+
+## Contributing
+
+If you'd like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
