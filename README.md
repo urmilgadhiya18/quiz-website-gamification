@@ -17,8 +17,8 @@ This Interactive Quiz Application is a dynamic, engaging web application built w
 
 ## Live Demo & Video Walkthrough
 
-- [Link Demo](https://quiz-taskk.vercel.app)
-- [Link to video walkthrough](https://youtu.be/ucUfsxkLWwo)
+- [Live Demo](https://quiz-taskk.vercel.app)
+- [Video Link](https://youtu.be/ucUfsxkLWwo)
 
 ## Screenshots
 
