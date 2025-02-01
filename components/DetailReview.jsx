@@ -13,7 +13,7 @@ export default function DetailReview({ questions, userAnswers, onBack }) {
         Detailed Quiz Review
       </h2>
       {questions.map((question, index) => {
-        const userAnswer = userAnswers.find((ua) => ua.questionId === question.id)?.answer
+        const userAnswer = userAnswers.find((ua) => ua?.questionId === question.id)?.answer
         const correctAnswer = question.options.find((opt) => opt.is_correct)?.description
         const isCorrect = userAnswer === correctAnswer
 
@@ -60,7 +60,7 @@ export default function DetailReview({ questions, userAnswers, onBack }) {
             </div>
             {question.detailed_solution && (
               <div className="mt-4 p-4 bg-green-500/20 border border-green-500 rounded-lg">
-                <h4 className="text-lg font-semibold mb-2 text-green-400">Detailed Solution:</h4>
+                <h4 className="text-lg font-semibold mb-2 text-green-400">Solution:</h4>
                 <p className="text-gray-200">{removeStars(question.detailed_solution)}</p>
               </div>
             )}

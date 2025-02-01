@@ -80,7 +80,7 @@ export default function Home() {
   const calculateScore = () => {
     if (!quizData) return 0
     return userAnswers.reduce((score, userAnswer) => {
-      const question = quizData.questions.find((q) => q.id === userAnswer.questionId)
+      const question = quizData.questions.find((q) => q.id === userAnswer?.questionId)
       if (question && userAnswer.answer) {
         const correctOption = question.options.find((opt) => opt.is_correct)  
         if (correctOption && userAnswer.answer === correctOption.description) {
@@ -118,7 +118,7 @@ export default function Home() {
         {!quizFinished && timeRemaining !== null && (
           <div className="flex justify-between p-0 m-0">
           <h2 className="text-3xl font-bold pl-2 mb-8 bg-clip-text text-transparent bg-gradient-to-r from-purple-400 to-pink-600">
-            Question {currentQuestionIndex} of {quizData?.questions_count}
+            Question {currentQuestionIndex + 1} of {quizData?.questions_count}
           </h2>
           <div className="flex text-xl font-bold text-white gap-x-2">
             <Clock />
